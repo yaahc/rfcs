@@ -89,6 +89,7 @@ contributions:
 - RFCs or design proposals
 - Issues or security vulnerabilities
 - Comments and feedback on pull requests
+- Communication on Zulip
 
 ### Details
 
