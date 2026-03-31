@@ -52,12 +52,23 @@ work through the difficult discussions surrounding this topic.
 
 The Rust Project's policy is that contributors can use whatever tools they
 would like to craft their contributions, but there must be a **human in the
-loop**. **Contributors must read and review all LLM-generated code or text
-before they ask other project members to review it.** The contributor is always
-the author and is fully accountable for their contributions. Contributors
-should be sufficiently confident that the contribution is high enough quality
-that asking for a review is a good use of scarce maintainer time, and they
-should be **able to answer questions about their work** during review.
+loop**. **Contributors must read and review all LLM-generated code before they
+ask other project members to review it.** The contributor is always the author
+and is fully accountable for their contributions. Contributors should be
+sufficiently confident that the contribution is high enough quality that asking
+for a review is a good use of scarce maintainer time, and they should be **able
+to answer questions about their work, without using an LLM** during review.
+
+Contributors must not present LLM generated text as if it communication from a
+human, such as in PR descriptions or issue comments. LLM generated text may be
+included in these venues when clearly identified as such above the text in
+question. This includes asking an LLM to draft a comment for you and presenting
+it as if you wrote it. Such comments can contain signs of being written by LLMs
+and may be interpreted as such. For usages such as LLM generated translations,
+contributors are encouraged to include the original text in the source language
+alongside the translation, which may include additional context lost in
+translation that other project members who understand the source language are
+able to catch.
 
 We expect that new contributors will be less confident in their contributions,
 and our guidance to them is to **start with small contributions** that they can
