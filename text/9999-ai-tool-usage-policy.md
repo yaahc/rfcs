@@ -78,14 +78,9 @@ small steps, getting feedback, and iterating. Passing maintainer feedback to an
 LLM pasting the generated text back doesn't help anyone grow, and does not
 sustain our community.
 
-Contributors are expected to **be transparent and label contributions that
-contain substantial amounts of tool-generated content**. Our policy on
-labelling is intended to facilitate reviews, and not to track which parts of
-rust-lang/rust are generated. Contributors should note tool usage in their pull
-request description, commit message, or wherever authorship is normally
-indicated for the work. For instance, use a commit message trailer like
-Assisted-by: <name of code assistant>. This transparency helps the community
-develop best practices and understand the role of these new tools.
+Contributors are expected to **be transparent and explain how and when they've
+used LLM generated content during their contribution**. This can for example
+include sharing prompts, context, or conversations with chat-style LLMs.
 
 This policy includes, but is not limited to, the following kinds of
 contributions:
